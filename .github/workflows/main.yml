@@ -198,11 +198,12 @@ jobs:
         unityVersion:
           - 2019.2.11f1
         targetPlatform:
-          - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
-          - StandaloneWindows64 # Build a Windows 64-bit standalone.
-          - StandaloneLinux64 # Build a Linux 64-bit standalone.
-          - iOS # Build an iOS player.
-          - WebGL # WebGL.
+          #- StandaloneOSX # Build a macOS standalone (Intel 64-bit).
+          #- StandaloneWindows64 # Build a Windows 64-bit standalone.
+          #- StandaloneLinux64 # Build a Linux 64-bit standalone.
+          #- iOS # Build an iOS player.
+          #- WebGL # WebGL.
+          - Android #Build Android APK
     steps:
       - uses: actions/checkout@v2
         with:
